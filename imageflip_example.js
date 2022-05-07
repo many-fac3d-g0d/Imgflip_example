@@ -7,7 +7,7 @@ const fs = require('fs');
 dotenv.config();
 const API_URL = "https://api.imgflip.com/caption_image";
 
-/* Example to show how promises are created */
+/* Example to show how promises are created 
 function testTimeout(val){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -18,7 +18,7 @@ function testTimeout(val){
         }, 5000)
         
     })
-}
+}*/
 
 /* Using Callbacks */
 
